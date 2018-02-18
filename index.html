@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Shopping List</title>
+    <!--<link href="style.css" type="text/css" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Open+Sans+Condensed:300" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <h1>Sack Lunch Shopping!</h1>
+    </header>
+
+    <div class = "mega">
+      <div class = "container">
+
+        <h1>Available Items</h1>
+
+        <div class = "item">
+          <p class="food">Bread</p>
+          <p>$<span class="price">1.99</span></p>
+          <button type = "button" onclick="addItem(0);">Add Item</button>
+        </div>
+
+        <div class = "item">
+          <p class="food">Peanut Butter</p>
+          <p>$<span class="price">2.79</span></p>
+          <button type = "button" onclick="addItem(1);">Add Item</button>
+        </div>
+
+        <div class = "item">
+          <p class="food">Strawberry Jelly</p>
+          <p>$<span class="price">2.50</span></p>
+          <button type = "button" onclick="addItem(2);">Add Item</button>
+        </div>
+
+        <div class = "item">
+          <p class="food">Carrots</p>
+          <p>$<span class="price">1.20</span></p>
+          <button type = "button" onclick="addItem(3);">Add Item</button>
+        </div>
+
+        <div class = "item">
+          <p class="food">Celery</p>
+          <p>$<span class="price">0.99</span></p>
+          <button type = "button" onclick="addItem(4);">Add Item</button>
+        </div>
+
+        <div class = "item">
+          <p class="food">Tomato Soup</p>
+          <p>$<span class="price">3.99</span></p>
+          <button type = "button" onclick="addItem(5);">Add Item</button>
+        </div>
+
+        <div class = "item">
+          <p class="food">Milk</p>
+          <p>$<span class="price">2.99</span></p>
+          <button type = "button" onclick="addItem(6);">Add Item</button>
+        </div>
+
+        <button class= "generate" type="button" onclick="generateList();">Generate List</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
